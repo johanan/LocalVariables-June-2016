@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>LocalVariables.MVC.Core</id>
+    <version>1.0.0</version>
+    <title>The core project for MVC</title>
+    <authors>Joshua Johanan</authors>
+    <owners>Joshua Johanan</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The core package for installing MVC.</description>
+    <releaseNotes>Initial package.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <dependencies>
+      <group>
+        <dependency id="Microsoft.AspNet.Mvc" version="5.2.3" />
+        <dependency id="WebActivatorEx" version="2.1.0"/>
+        <dependency id="ArbitraryLibrary" version="0.8.0"/>
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Views\**\*.*" target="content\Views"></file>
+    <file src="Controllers\HomeController.cs.pp" target="content\Controllers"></file>
+    <file src="App_Start\RouteConfig.cs.pp" target="content\App_Start"></file>
+  </files>
+</package>
