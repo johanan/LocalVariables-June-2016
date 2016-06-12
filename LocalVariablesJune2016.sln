@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArbitraryLibrary", "Arbitra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NugetServer", "NugetServer\NugetServer.csproj", "{EBF6115B-881F-427F-B4E5-294DFCE1954D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "TestApplication\TestApplication.csproj", "{A1EEA3BE-0C7D-4919-AC2A-D8CE0508AC33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EBF6115B-881F-427F-B4E5-294DFCE1954D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBF6115B-881F-427F-B4E5-294DFCE1954D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBF6115B-881F-427F-B4E5-294DFCE1954D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1EEA3BE-0C7D-4919-AC2A-D8CE0508AC33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1EEA3BE-0C7D-4919-AC2A-D8CE0508AC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1EEA3BE-0C7D-4919-AC2A-D8CE0508AC33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1EEA3BE-0C7D-4919-AC2A-D8CE0508AC33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

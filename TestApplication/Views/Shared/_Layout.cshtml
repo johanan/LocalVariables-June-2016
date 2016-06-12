@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/css/LocalVariablesTheme.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/jquery-2.2.3.min.js")"></script>
+    <script src="@Url.Content("~/Content/js/bootstrap.js")"></script>
+</head>
+<body>
+    <header class="beacon-teal-bg">
+        <div class="container">
+            <img src="~/Content/images/Beacon_white.png" class="beacon-header-img" />
+        </div>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <span class="navbar-brand"><a href="@Url.Action("Index", "Home")">Theme Template</a></span>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Theme Change <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#" class="background">Teal</a></li>
+                            <li><a href="#" class="background">Gray</a></li>
+                            <li><a href="#" class="background">Red</a></li>
+                            <li><a href="#" class="background">Orange</a></li>
+                            <li><a href="#" class="background">Gold</a></li>
+                            <li><a href="#" class="background">Purple</a></li>
+                            <li><a href="#" class="background">Blue</a></li>
+                            <li><a href="#" class="background">Green</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">Image Change <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#" class="image">Beacon</a></li>
+                            <li><a href="#" class="image">BHV</a></li>
+                            <li><a href="#" class="image">BMG</a></li>
+                            <li><a href="#" class="image">Elkhart</a></li>
+                            <li><a href="#" class="image">Memorial</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <span class="navbar-right navbar-text">Josh</span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        @RenderBody()
+    </div>
+    @RenderSection("scripts", required: false)
+    <script>
+    var image = {
+        'Beacon': 'Beacon_white.png',
+        'BHV': 'BHV_white.png',
+        'BMG': 'BMG_white.png',
+        'Elkhart': 'EGH_white.png',
+        'Memorial': 'Memorial_white.png'
+    }
+    var $header = $('header');
+    var $headerImg = $header.find('img');
+
+    $(document).on('click', '.background', function (e) {
+        $header.removeClass();
+        $header.addClass('beacon-' + e.target.innerText.toLowerCase() + '-bg');
+    });
+
+    $(document).on('click', '.image', function (e) {
+        $headerImg[0].src = 'Content/images/' + image[e.target.innerText];
+    });
+    </script>
+</body>
+</html>
