@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>LocalVariables.Theme</id>
+        <version>1.0.0</version>
+        <title>LocalVariables Theme</title>
+        <authors>Joshua Johanan</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Based on Bootstrap.</description>
+        <summary />
+        <dependencies>
+            <dependency id="jQuery" version="2.2.3" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Content\**\*" target="content\" />
+    </files>
+</package>

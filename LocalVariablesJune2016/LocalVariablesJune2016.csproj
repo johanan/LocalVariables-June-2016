@@ -102,7 +102,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\images\Beacon_white.png" />
+    <Content Include="Content\images\BHV_white.png" />
+    <Content Include="Content\images\BMG_white.png" />
+    <Content Include="Content\images\EGH_white.png" />
+    <Content Include="Content\images\Memorial_white.png" />
+    <Content Include="Content\js\bootstrap.js" />
+    <Content Include="Content\js\bootstrap.min.js" />
     <Content Include="packages.config" />
+    <Content Include="LocalVariables.Theme.nuspec" />
+    <None Include="Scripts\jquery-2.2.3.intellisense.js" />
+    <Content Include="Scripts\jquery-2.2.3.js" />
+    <Content Include="Scripts\jquery-2.2.3.min.js" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
@@ -111,6 +123,101 @@
     <Content Include="LocalVariablesJune2016.nuspec">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Theme\beacon.less" />
+    <Content Include="Theme\beaconless\navbar.less" />
+    <Content Include="Theme\beaconless\utility.less" />
+    <Content Include="Theme\beaconless\variables.less" />
+    <Content Include="Theme\less\.csscomb.json" />
+    <Content Include="Theme\less\.csslintrc" />
+    <Content Include="Theme\less\alerts.less" />
+    <Content Include="Theme\less\badges.less" />
+    <Content Include="Theme\less\bootstrap.less" />
+    <Content Include="Theme\less\breadcrumbs.less" />
+    <Content Include="Theme\less\button-groups.less" />
+    <Content Include="Theme\less\buttons.less" />
+    <Content Include="Theme\less\carousel.less" />
+    <Content Include="Theme\less\CEFC124.pagination.less.TBD" />
+    <Content Include="Theme\less\CEFC9aa.badges.less.TBD" />
+    <Content Include="Theme\less\CEFCb50.scaffolding.less.TBD" />
+    <Content Include="Theme\less\CEFCd6e.panels.less.TBD" />
+    <Content Include="Theme\less\CEFCf65.breadcrumbs.less.TBD" />
+    <Content Include="Theme\less\CEFCff6.responsive-utilities.less.TBD" />
+    <Content Include="Theme\less\close.less" />
+    <Content Include="Theme\less\code.less" />
+    <Content Include="Theme\less\component-animations.less" />
+    <Content Include="Theme\less\dropdowns.less" />
+    <Content Include="Theme\less\forms.less" />
+    <Content Include="Theme\less\glyphicons.less" />
+    <Content Include="Theme\less\grid.less" />
+    <Content Include="Theme\less\input-groups.less" />
+    <Content Include="Theme\less\jumbotron.less" />
+    <Content Include="Theme\less\labels.less" />
+    <Content Include="Theme\less\list-group.less" />
+    <Content Include="Theme\less\media.less" />
+    <Content Include="Theme\less\mixins.less" />
+    <Content Include="Theme\less\mixins\alerts.less" />
+    <Content Include="Theme\less\mixins\background-variant.less" />
+    <Content Include="Theme\less\mixins\border-radius.less" />
+    <Content Include="Theme\less\mixins\buttons.less" />
+    <Content Include="Theme\less\mixins\CEFC011.panels.less.TBD" />
+    <Content Include="Theme\less\mixins\CEFC272.center-block.less.TBD" />
+    <Content Include="Theme\less\mixins\CEFC90f.grid.less.TBD" />
+    <Content Include="Theme\less\mixins\CEFC934.background-variant.less.TBD" />
+    <Content Include="Theme\less\mixins\CEFC99e.progress-bar.less.TBD" />
+    <Content Include="Theme\less\mixins\CEFCe69.border-radius.less.TBD" />
+    <Content Include="Theme\less\mixins\center-block.less" />
+    <Content Include="Theme\less\mixins\clearfix.less" />
+    <Content Include="Theme\less\mixins\forms.less" />
+    <Content Include="Theme\less\mixins\gradients.less" />
+    <Content Include="Theme\less\mixins\grid-framework.less" />
+    <Content Include="Theme\less\mixins\grid.less" />
+    <Content Include="Theme\less\mixins\hide-text.less" />
+    <Content Include="Theme\less\mixins\image.less" />
+    <Content Include="Theme\less\mixins\labels.less" />
+    <Content Include="Theme\less\mixins\list-group.less" />
+    <Content Include="Theme\less\mixins\nav-divider.less" />
+    <Content Include="Theme\less\mixins\nav-vertical-align.less" />
+    <Content Include="Theme\less\mixins\opacity.less" />
+    <Content Include="Theme\less\mixins\pagination.less" />
+    <Content Include="Theme\less\mixins\panels.less" />
+    <Content Include="Theme\less\mixins\progress-bar.less" />
+    <Content Include="Theme\less\mixins\reset-filter.less" />
+    <Content Include="Theme\less\mixins\reset-text.less" />
+    <Content Include="Theme\less\mixins\resize.less" />
+    <Content Include="Theme\less\mixins\responsive-visibility.less" />
+    <Content Include="Theme\less\mixins\size.less" />
+    <Content Include="Theme\less\mixins\tab-focus.less" />
+    <Content Include="Theme\less\mixins\table-row.less" />
+    <Content Include="Theme\less\mixins\text-emphasis.less" />
+    <Content Include="Theme\less\mixins\text-overflow.less" />
+    <Content Include="Theme\less\mixins\vendor-prefixes.less" />
+    <Content Include="Theme\less\modals.less" />
+    <Content Include="Theme\less\navbar.less" />
+    <Content Include="Theme\less\navs.less" />
+    <Content Include="Theme\less\normalize.less" />
+    <Content Include="Theme\less\pager.less" />
+    <Content Include="Theme\less\pagination.less" />
+    <Content Include="Theme\less\panels.less" />
+    <Content Include="Theme\less\popovers.less" />
+    <Content Include="Theme\less\print.less" />
+    <Content Include="Theme\less\progress-bars.less" />
+    <Content Include="Theme\less\responsive-embed.less" />
+    <Content Include="Theme\less\responsive-utilities.less" />
+    <Content Include="Theme\less\scaffolding.less" />
+    <Content Include="Theme\less\tables.less" />
+    <Content Include="Theme\less\theme.less" />
+    <Content Include="Theme\less\thumbnails.less" />
+    <Content Include="Theme\less\tooltip.less" />
+    <Content Include="Theme\less\type.less" />
+    <Content Include="Theme\less\utilities.less" />
+    <Content Include="Theme\less\variables.less" />
+    <Content Include="Theme\less\wells.less" />
+    <Content Include="BuildTheme.ps1" />
+    <Content Include="Scripts\jquery-2.2.3.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -126,7 +233,9 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Content\css\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -138,7 +247,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>60833</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
@@ -161,7 +270,9 @@
   </Target>
   <PropertyGroup>
     <PostBuildEvent>powershell.exe -File "$(ProjectDir)ConvertPP.ps1" -namespace "LocalVariablesJune2016"
-"$(SolutionDir)packages\NuGet.CommandLine.3.4.3\tools\nuget.exe" pack "$(ProjectDir)LocalVariablesJune2016.nuspec"</PostBuildEvent>
+powershell.exe -File "$(ProjectDir)BuildTheme.ps1"
+"$(SolutionDir)packages\NuGet.CommandLine.3.4.3\tools\nuget.exe" pack "$(ProjectDir)LocalVariablesJune2016.nuspec"
+"$(SolutionDir)packages\NuGet.CommandLine.3.4.3\tools\nuget.exe" pack "$(ProjectDir)LocalVariables.Theme.nuspec"</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

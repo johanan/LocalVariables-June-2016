@@ -1,0 +1,43 @@
+//Remove border radius on navbar
+
+.navbar {
+  position: relative;
+  min-height: @navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
+  margin-bottom: @navbar-margin-bottom;
+  border: 1px solid transparent;
+
+  // Prevent floats from breaking the navbar
+  &:extend(.clearfix all);
+
+  font-family: @font-family-serif;
+  color: #ffffff;
+}
+
+.navbar-brand {
+    a {
+        color: @navbar-default-color;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: @navbar-default-link-hover-color;
+    }
+}
+
+.navbar-nav {
+    .dropdown {
+        cursor: pointer;
+    }
+}
+
+
+.nav {
+    .dropdown-menu > li > a {
+      &:hover,
+      &:focus {
+        text-decoration: none;
+        color: @navbar-default-link-active-color;
+        background-color: @beacon-gray;
+      }
+    }
+}

@@ -15,11 +15,12 @@
         <dependency id="Microsoft.AspNet.Mvc" version="5.2.3" />
         <dependency id="WebActivatorEx" version="2.1.0"/>
         <dependency id="ArbitraryLibrary" version="0.8.0"/>
+        <dependency id="LocalVariables.Theme" version="1.0.0"/>
       </group>
     </dependencies>
   </metadata>
   <files>
-    <file src="Views\**\*.*" target="content\Views"></file>
+    <file src="Views\**\*" target="content\Views"></file>
     <file src="Controllers\HomeController.cs.pp" target="content\Controllers"></file>
     <file src="App_Start\RouteConfig.cs.pp" target="content\App_Start"></file>
   </files>
